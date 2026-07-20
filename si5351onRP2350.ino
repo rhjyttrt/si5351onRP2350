@@ -9,13 +9,13 @@
 #define PIN_I2C_SDA   16  // GP16 (Physical Pin 21)
 #define PIN_I2C_SCL   17  // GP17 (Physical Pin 22)
 
-#define PIN_BTN_PAGE  18  // GP18 (Physical Pin 24) - Cycle active channels (0 to 2)
-#define PIN_BTN_STEP  19  // GP19 (Physical Pin 25) - Change tuning step size
-#define PIN_BTN_SAVE  20  // GP20 (Physical Pin 26) - Save active frequency to channel memory
-#define PIN_ENC_A     21  // GP21 (Physical Pin 27) - Rotary encoder phase A
-#define PIN_ENC_B     22  // GP22 (Physical Pin 29) - Rotary encoder phase B
+#define PIN_BTN_PAGE  18  // GP18 - Cycle active channels (0 to 2)
+#define PIN_BTN_STEP  19  // GP19 - Change tuning step size
+#define PIN_BTN_SAVE  20  // GP20 - Save active frequency to channel memory
+#define PIN_ENC_A     21  // GP21 - Rotary encoder phase A
+#define PIN_ENC_B     22  // GP22 - Rotary encoder phase B
 
-#define UI_FRAME_INTERVAL 16 // ~62.5 FPS update cap (1000ms / 16ms)
+#define UI_FRAME_INTERVAL 16 // ~62.5 FPS
 
 Si5351 si5351; // Global instance of the Si5351 clock generator library
 
